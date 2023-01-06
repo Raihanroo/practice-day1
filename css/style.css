@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.467)), url(../images/donation8.jpg) no-repeat center / cover;
+    padding: 300px 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(244, 104, 54);
+    border-radius: 5px;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.money-Donat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.money-D1 {
+    width: 135px;
+    height: 123px;
+    left: 338px;
+    top: 50px;
+    background: #d6cecea8;
+    color: gray;
+    border-radius: 5px;
+   
+}
+.money-D1:hover{
+    background: rgba(177, 73, 73, 0.771);
+    color: crimson;
+    border: 3px solid;
+    
+}
+.money-D1 h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
