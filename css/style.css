@@ -26,29 +26,160 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 200px;
+    padding-left: 250px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    
+ 
+}
+
+.amount {
+    width: 135px;
+    height: 100px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #707070;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.amount:hover{
+    background: rgba(177, 73, 73, 0.771);
+    color: crimson;
+    /* border: 3px solid; */  
+}
+/* .amount h1{
+    text-align: center;
+    margin-top: 50px;
+} */
+
+/* another ammoutn tak */
+
+.another-text{
+    text-align: center;
+    font-size: 25px;
+    color: #707070;  
+}
+
+.line{
+    margin-top: 10px;
+    border-bottom: 1px solid #707070;
+    width: 70%;
+    margin-left: 18%;
+}
+
+.btn2 {
+    background-color: rgb(230, 83, 30);
+    border-radius: 5px;
+    padding: 18px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.our_donateplan{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 190px;
+    margin-top: 50px;
     margin-right: 200px;
     
 }
+.our-donate{
+    height: 300px;
+    width: 320px;
+    align-items: center;
+}
 
-.money-D1 {
-    width: 135px;
-    height: 123px;
-    left: 338px;
-    top: 50px;
-    background: #d6cecea8;
-    color: gray;
-    border-radius: 5px;
-   
-}
-.money-D1:hover{
-    background: rgba(177, 73, 73, 0.771);
-    color: crimson;
-    border: 3px solid;
-    
-}
-.money-D1 h1{
-    text-align: center;
+.doimg{
+    margin-left: 20px; 
     margin-top: 50px;
 }
 
+.our-dontext h3{
+  margin-top: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.our-dontext p{
+    margin-top: 20px;
+    font-size: 18.5px;
+    font-weight: 400;  
+    margin-left: 20px;
+}
+
+/* their lives */
+
+.their-live h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.their-live p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #707070;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.therir{
+    display: flex;
+    justify-content: space-between;
+}
+.theri{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.update .text{
+    text-align: center;
+    font-size: 50px;
+}
+
+.yellow{
+    height: 150px;
+    width: 70%;
+    background-color: antiquewhite;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.yellow input{
+    width: 30%;
+    padding: 18px 50px;
+    margin-top: 50px;
+    margin-left: 20%;
+    border-radius: 5px;
+    border: none;
+}
+.yellow button{
+    padding: 18px 50px;
+    background-color: coral;
+    color: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.last-pat{
+    margin-top: 150px;
+    background-color: black;
+}
+.last-pat h1{
+    padding-top: 50px;
+    font-size: 50px;
+    color: crimson;
+}
